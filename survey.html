@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align: center;">
+            <b>
+                Survey Form Using Html
+            </b>
+        </h1>
+    </header>
+    <hr>
+    <br>
+
+
+    <form id="form">
+        <!-- Name -->
+        <label for="name" id="name">
+            Name
+        </label><br>
+
+        <input type="text" id="name" placeholder="Enter your name" /><br>
+        
+
+        <!-- Email -->
+        <label for="email" id="email"><br>
+            Email
+        </label><br>
+
+        <input type="email" id="email" placeholder="Enter your Email id" /><br>
+
+
+        <!-- DOB -->
+        <label for="DOB" id="DOB"><br>
+            Date of Birth
+        </label><br>
+
+        <input type="date" id="DOB"><br>
+
+        <!-- Course -->
+        <label for="course" name="course">
+            <br>
+            Select Course
+            <br>
+            <label for="course1">
+                <input type="radio" id="course1" name="course">BCA
+                <br>
+            </label>
+
+            <label for="course2">
+                <input type="radio" id="course2" name="course">B.Tech
+                <br> </label>
+
+            <label for="course3">
+                <input type="radio" id="course3" name="course">MCA
+                <br> </label>
+
+            <label for="course4">
+                <input type="radio" id="course4" name="course">M.Tech
+                <br>
+            </label>
+        </label>
+        <br>
+
+        <label for="languages"> Which language do you know?<br>
+            <label>
+                <input type="checkbox" id="languages"> Python
+            </label><br>
+
+            <label>
+                <input type="checkbox" id="languages"> Html
+            </label><br>
+
+            <label>
+                <input type="checkbox" id="languages"> C/C++
+            </label><br>
+
+            <label>
+                <input type="checkbox" id="languages"> Javascript
+            </label>
+        </label>
+        <br>
+        <br>
+
+        <label for="comment">Why do you want to join us?
+        </label><br>
+        <textarea id="comment" placeholder="Please explain...."></textarea>
+        <br>
+        <br>
+
+        <label for="resume">Upload resume<br>
+            <input type="file" name="resume">
+        </label>
+        <br>
+        <br>
+
+        <button type="submit" value="submit" id="submit-btn" style="background-color: beige; cursor: pointer;"
+            onclick="btnfunction()">
+            Submit
+        </button>
+
+
+        <script>
+           function btnfunction(){
+                document.querySelector("html").innerHTML = "Thank You! \n Your response has been submitted."
+            }
+        </script>
+</body>
+
+</html>

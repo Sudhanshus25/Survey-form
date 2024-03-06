@@ -1,0 +1,13 @@
+*{
+    margin: 3px;
+    padding: 2px;
+}
+
+body{
+    background-color: rgb(240, 200, 147);
+    border: 3px double black;
+}
+
+header{
+    background-color: rgba(252, 205, 142, 0.884);
+}
