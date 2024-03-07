@@ -2,7 +2,7 @@
 
 It is my first project on HTML and a little of CSS. 
 <br>
-I used different types of input field in this project.
+I used different types of input fields in this project.
 
 
 # Preview
